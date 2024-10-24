@@ -1,10 +1,10 @@
 # This class defines the products class
 
 class Product:
-    def __init__(self, product_id, product_name, product_price, status="Available")
+    def __init__(self, product_id, product_name, product_price, status="Available"):
         self.product_id = product_id
         self.product_name = product_name
-        self.price = product_price 
+        self.product_price = product_price 
         self.status = status
 
     # create methods for the product class
