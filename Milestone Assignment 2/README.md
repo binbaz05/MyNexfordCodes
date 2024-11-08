@@ -1,3 +1,5 @@
+Milestone Assignment 2: Principal Component Analysis
+
 This project uses Principal Component Analysis (PCA) and Logistic Regression to build a model that predicts patient referrals at Anderson Cancer Center.
 The number of referrals is said to have been on an increase and this model will hopefully help to strealine the referral process.
 
