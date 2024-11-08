@@ -7,11 +7,13 @@ PCA Implementation: Reduces the dataset into two main components, preserving the
 Logistic Regression: A classification model is used to predict whether a patient needs a referral based on key features derived from PCA.
 
 Requirements:
+
     Python 3.x
     Libraries: sklearn, pandas
 You can install the necessary libraries using: "pip install scikit-learn pandas"
 
 Dataset:
+
 The dataset used is the Breast Cancer Wisconsin (Diagnostic) Dataset, which is available directly through sklearn.datasets. It contains 30 features related to cancer diagnostics, with the target being either malignant or benign.
 
 Code Outline:
@@ -27,14 +29,14 @@ Code Outline:
     A logistic regression model is applied to classify the data after PCA transformation.
     The dataset is split into training and testing sets, and the accuracy of the logistic regression model on the PCA-reduced data is calculated.
 
-Key Outputs:
+Outputs:
 
     Explained Variance Ratio: Displays the amount of variance explained by each of the two PCA components.
     
     Logistic Regression Accuracy: The accuracy score reflects how well logistic regression performs on the reduced data, indicating the effectiveness of dimensionality reduction for classification.
 
 Usage:
-    To run the program: 
+    To run the program:
     python PCA.py
 
 
