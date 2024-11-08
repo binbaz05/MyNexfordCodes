@@ -30,6 +30,7 @@ Code Outline:
 Key Outputs:
 
     Explained Variance Ratio: Displays the amount of variance explained by each of the two PCA components.
+    
     Logistic Regression Accuracy: The accuracy score reflects how well logistic regression performs on the reduced data, indicating the effectiveness of dimensionality reduction for classification.
 
 Usage:
