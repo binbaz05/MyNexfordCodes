@@ -47,9 +47,11 @@ cat('Test accuracy:', score[[2]],  "\n")
 predictions <- model %>% predict(x_test[1:2,,,])
 
 # Visualize the predictions
-par(mfrow = c(1, 2))  
+
+par(mfrow = c(1, 2))
+
 for (i in 1:2) {
-  plot.new()  
+  plot.new()
   grid.raster(x_test[i,,,1], interpolate = FALSE) 
   title(paste("Predicted:", which.max(predictions[i,]) - 1, "Actual:", y_test[i]))  
 }
