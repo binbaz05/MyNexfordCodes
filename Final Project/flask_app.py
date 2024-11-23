@@ -7,7 +7,8 @@ import os
 
 app = Flask(__name__)
 
-# MongoDB URI for Cloud MongoDB (MongoDB Atlas)
+# MongoDB URI for Cloud MongoDB (MongoDB Atlas) 
+# you will need to update this to your local or cloud mongo DB server
 #mongo_uri = "mongodb+srv://<user_data>:<Tt9Yq3bQVxOLAi9d>@cluster0.r9xgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 uri = "mongodb+srv://user_data:Tt9Yq3bQVxOLAi9d@cluster0.r9xgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 # Create a new client and connect to the server
